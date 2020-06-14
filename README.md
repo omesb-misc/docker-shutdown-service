@@ -2,8 +2,10 @@
 a systemd service to automatically shut down docker containers on poweroff and reboot
 
 ## Installation
-Use the included install.sh script (`sh install.sh`), or install **manually**:
-1. Download the files & open terminal in folder
+
+Download files, open terminal in folder and use the included **install.sh** script (`sh install.sh`),  
+or install **manually**:
+
 1. set permissions (should be correct though):  
 `sudo chmod 755 stop-docker.sh stop-docker-containers.service`
 1. copy the files:  
