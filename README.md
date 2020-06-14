@@ -4,9 +4,9 @@ a systemd service to automatically shut down docker containers on poweroff and r
 ## Installation
 1. Download the files & open terminal in folder
 1. set permissions (should be correct though):  
-`sudo chmod 755 docker-stop.sh stop-docker-containers.service`
+`sudo chmod 755 stop-docker.sh stop-docker-containers.service`
 1. copy the files:  
-`sudo cp docker-stop.sh /usr/local/bin; sudo cp stop-docker-containers.service /etc/systemd/system/`
+`sudo cp stop-docker.sh /usr/local/bin; sudo cp stop-docker-containers.service /etc/systemd/system/`
 1. restart systemd daemon:  
 `sudo systemctl daemon-reload`
 1. enable the service:  
