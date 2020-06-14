@@ -3,7 +3,11 @@ a systemd service to automatically shut down docker containers on poweroff and r
 
 ## Installation
 
-Download files, open terminal in folder and use the included **install.sh** script (`sh install.sh`),  
+Download files, open terminal in folder and use the included **install.sh** script 
+```bash 
+sh install.sh
+``` 
+
 or install **manually**:
 
 1. set permissions (should be correct though):  
