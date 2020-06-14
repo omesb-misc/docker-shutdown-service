@@ -14,5 +14,6 @@ echo "DONE!"
 
 echo "===> enable the service:";
 sudo systemctl enable --now stop-docker-containers.service;
+echo "DONE!"
 
 echo "Installation complete!"
