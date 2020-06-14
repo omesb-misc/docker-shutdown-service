@@ -5,7 +5,7 @@ Before=shutdown.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/docker-stop.sh
+ExecStart=/usr/local/bin/stop-docker.sh
 TimeoutStartSec=0
 
 [Install]
